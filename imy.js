@@ -2,7 +2,10 @@
 
 let BTN = document.getElementById("btn");
 
-function imy() {
-    BTN.outerHTML = "I MISS YOU, MAYBE";
-}
+BTN.addEventListener("click", function() {
+    let output = document.getElementById("buttonoutput");
+    output.innerHTML = "I MISS YOU TOO";
+});
+
+
 
